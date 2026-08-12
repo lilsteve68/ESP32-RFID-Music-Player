@@ -1,6 +1,6 @@
 # 🎵 ESP32 RFID Music Player & Linker
 
-An interactive, low-power RFID music player built for ESP32 microcontrollers (optimized for **ESP32-C3 SuperMini**). 
+An interactive, low-power RFID music player built for ESP32 microcontrollers. 
 
 Scan hardware UIDs on NFC/RFID tags to play MP3 audio files stored on an SD card. Dynamically link new tags to audio files on the fly through an embedded mobile-friendly Web Dashboard without recompiling code!
 
