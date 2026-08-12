@@ -23,7 +23,7 @@ Scan hardware UIDs on NFC/RFID tags to play MP3 audio files stored on an SD card
 * **RFID Reader:** MFRC522 (SPI)
 * **Audio DAC:** MAX98357A I2S Amplifier
 * **Storage:** MicroSD Card Module (SPI)
-* **Optional:** NPN Transistor / MOSFET for driving a DC Motor
+* **Motor Driver:** NPN Transistor / MOSFET for driving a DC Motor (S8050/Y1)
 
 ---
 
@@ -53,6 +53,18 @@ Scan hardware UIDs on NFC/RFID tags to play MP3 audio files stored on an SD card
 | | `GPIO 13` |
 
 ---
+
+## 🚀 Motor Driver Connection
+
+ESP32 GPIO 13 ---- 1kΩ ---- Base (Pin 1)
+
+Emitter (Pin 2) -------- GND
+
+Collector (Pin 3) ------ Motor -
+
+Motor + ---------------- Battery +
+
+SS14 diode across the motor
 
 ## 🚀 Quick Start Guide
 
