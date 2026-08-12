@@ -54,7 +54,7 @@ Scan hardware UIDs on NFC/RFID tags to play MP3 audio files stored on an SD card
 
 ---
 
-## 🚀 Motor Driver Connection
+## 🛠️ Motor Driver Connection
 
 ESP32 GPIO 13 ---- 1kΩ ---- Base (Pin 1)
 
